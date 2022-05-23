@@ -1,5 +1,7 @@
+--Usando el tipo float, cree una F(x) que reciba dos lista de enteros e imprime por pantalla el promedio de ambos.
+
 promedio:: [Int] -> [Int] -> Float
-promedio x y= (fromIntegral(sum x) + fromIntegral(sum y))/( fromIntegral(length x)+ fromIntegral(length y))
+promedio n m= (fromIntegral(sum n) + fromIntegral(sum m))/( fromIntegral(length n)+ fromIntegral(length m))
 
 
 main=do
